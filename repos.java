@@ -1,14 +1,14 @@
 public class repct {
     public static void main(String[] args) {
-        String s1,s2;
+        String s2,s3;
         int x,y,i,j,flag=0,n1,n2,m,n;
         Scanner sc=new Scanner(System.in);
-        s1=sc.nextLine();
         s2=sc.nextLine();
-        char[] a=s1.toCharArray();
-         x=s1.length();
-        y=s2.length();
-        char[] b=s2.toCharArray();
+        s3=sc.nextLine();
+        char[] a=s2.toCharArray();
+         x=s2.length();
+        y=s3.length();
+        char[] b=s3.toCharArray();
         for(i=0;i<x-1;i++)
         {
         for(j=i+1;j<x;j++)
